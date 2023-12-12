@@ -1,5 +1,5 @@
 # Insertion Sort
-## O(n^2)
+### Big O Notation -> O(n^2)
 Iterating number to the left until its in its sorted position.
 - [22, 27, 16, 2, 18, 6], start
 - [_**22, 27**_, 16, 2, 18, 6], no change between 22-27 they are already sorted
@@ -10,7 +10,7 @@ Iterating number to the left until its in its sorted position.
 - _**18**_ in the sorted list might be considered as average case.
 
 # Selection Sort
-## O(n^2)
+### Big O Notation -> O(n^2)
 Changing the smallest number in the list with the first element. Then repeating this with the next elements.
 - [7, 3, 5, 8, 2, 9, 4, 15, 6], start
 - [**2**, 3, 5, 8, **7**, 9, 4, 15, 6]
@@ -23,7 +23,7 @@ Changing the smallest number in the list with the first element. Then repeating 
 - [2, 3, 4, 5, 6, 7, 8, _**9**_, _**15**_]
 
 # Merge Sort
-## O(nlogn)
+### Big O Notation -> O(nlogn)
 Splitting the list into two parts and repeating this process until each part has one or two elements.
 - [16, 21, 11, 8, 12, 22]
 - [16, 21, 11] - [8, 12, 22]
@@ -32,6 +32,7 @@ Splitting the list into two parts and repeating this process until each part has
 - [_**8, 11, 12, 16, 21, 22**_]
 
 # Binary Search Tree
+### Big O Notation -> Average Case - O(nlogn), Worst Case - O(n)
 Assuming root is somewhere in the middle of the sorted list. Then inserting new values to the left(smaller than parent) or the right(greater than parent) of the root, then repeating this process. (searching, deleting also works same) (Depending on the distrubition of the values.)
 - [7, 5, 1, 8, 3, 6, 0, 9, 4, 2]
 * Assuming 5 is the root,
