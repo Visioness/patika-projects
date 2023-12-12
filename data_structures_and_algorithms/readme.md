@@ -55,14 +55,11 @@ Assuming root is somewhere in the middle of the sorted list. Then inserting new 
 Solutions may be different, and it will also affect its time complexity. More balanced tree means, more efficient Binary Search.
 
 ```               
-            7
-          /   \       
-        5       8
-       / \       \
-      1   6       9
-     / \
-    0   3
-       / \
-      2   4
-
+             4
+           /   \       
+         2       6
+        / \     / \
+       1   3   5   8
+      /           / \
+     0           7   9
 ```
