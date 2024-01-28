@@ -14,6 +14,7 @@ print(
 new_list = [element for element in list if type(element) == str]
 print(f'New list that has only strings: {new_list}\n')
 
+
 # # # # ------ ENUMERATING FRUITS ------ # # # #
 fruits = ['Apple', 'Banana', 'Orange', 'Watermelon', 'Grape', 'Peach', 'Apricot']
 
