@@ -1,4 +1,4 @@
-# # # # ------ 01 - INCOME TAX CALCULATION ------ # # # #
+# # # # ------ INCOME TAX CALCULATION ------ # # # #
 salary = abs(float(input('Entery your salary: ')))
 if 45000 >= salary > 25000:
     new_salary = salary * 0.75
@@ -12,7 +12,7 @@ else:
 print(f'Without Taxes: {salary}, With Taxes: {new_salary}\n\n')
 
 
-# # # # ------ 02 - USER AUTHENTICATION CHECK ------ # # # #
+# # # # ------ USER AUTHENTICATION CHECK ------ # # # #
 username = input('Enter your username: ')
 password = input('Enter your password: ')
 if len(password) >= 6:
@@ -21,7 +21,7 @@ else:
     print('Invalid usage. Enter a password with at least 6 characters!\n\n')
 
 
-# # # # ------ 03 - ACCOUNT CREATION VALIDATION ------ # # # #
+# # # # ------ ACCOUNT CREATION VALIDATION ------ # # # #
 username = input('Enter your username: ')
 while True:
     password = input('Enter your password: ')
@@ -34,7 +34,7 @@ while True:
 print(f'Username: {username}, Password: {password}\n\n')
 
 
-# # # # ------ 04 - LIMITED LOGIN ATTEMPTS ------ # # # #
+# # # # ------ LIMITED LOGIN ATTEMPTS ------ # # # #
 password_in_data = 'thisissecret'
 
 username = input('Enter your username: ')
