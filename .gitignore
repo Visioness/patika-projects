@@ -3,11 +3,11 @@ HiKod-Data-Science/include/
 HiKod-Data-Science/lib/
 HiKod-Data-Science/lib64/
 HiKod-Data-Science/share/
-HiKod-Data-Science/vgsales.csv
 HiKod-Data-Science/lib64
 HiKod-Data-Science/pyvenv.cfg
 HiKod-Data-Science/ml_1/
 HiKod-Data-Science/ml_2/
 HiKod-Data-Science/ml_3/
-HiKod-Data-Science/assignment08.ipynb
+HiKod-Data-Science/survey_results_public.csv
+HiKod-Data-Science/vgsales.csv
 .gitignore
